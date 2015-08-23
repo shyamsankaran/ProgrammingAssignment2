@@ -17,7 +17,7 @@ makeCacheMatrix <- function(x = matrix()) {
     ## Clear the object since new element is stored.
     ContainsValue <<- NULL
   }
-  ## Retrieves the stoed matrix
+  ## Retrieves the stored matrix
   get <- function() x
   
   ## Store the Inverse Matrix. 
